@@ -1,0 +1,32 @@
+.inline {
+    display: inline;
+    background-color: aqua;
+}
+
+.block {
+    display: block;
+    background-color: blue;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+.none {
+    display: none;
+}
+
+.msg {
+    display: none;
+    background-color: chartreuse;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+.hover-button:hover + .msg {
+    display: block;
+}
