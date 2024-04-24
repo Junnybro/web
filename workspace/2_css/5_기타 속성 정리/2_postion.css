@@ -1,0 +1,33 @@
+.body {
+    margin: 0;
+}
+
+.back {
+    background-color: lightgray;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.red {
+     background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+    position: fixed;
+    left: 300px;
+    top: 0;
+
+    /* left: 100px;
+    top: 100px; */
+}
+
+.purple {
+    background-color: purple;
+    position: absolute;
+    top: 2000px;
+    left: 1000px;
+}
