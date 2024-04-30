@@ -25,3 +25,4 @@ function getSum(num){
 }
 
 console.log(test(10, checkType, getSum));
+
