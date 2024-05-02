@@ -1,0 +1,23 @@
+▷ DOM (Docment Object Model)
+	웹 브라우저에 표시되는 HTML 문서 구조를 객체화한 모델 구조.
+	DOM은 자료구조 중의 하나인 트리구조를 가진다.
+
+	하나하나의 요소를 요소 노드라고 부르며, 각 노드는 부모, 자식, 형제 관계가 형성된다.
+	[ 요소 노드 말고도 문서, 속성, 텍스트, 주석 노드가 있다. ]
+
+▷ 속성으로 노드 선택하기
+	모든 노드 탐색
+	1) parentNode
+	2) childNodes
+	3) firstNode
+	4) lastChild
+	5) previousSibling
+	6) nextSibling
+
+	요소 노드 탐색
+	1) parentElement : 부모 요소 노드 반환
+	2) children : 자식 요소 노드를 반환
+	3) firstElementChild : 첫번째 자식 요소 노드 반환
+	4) lastElementChild : 마지막 자식 요소 노드 반환
+	5) previousElementSibling : 이전 요소 노드 반환
+	6) nextElementSibling : 다음 요소 노드 반환
